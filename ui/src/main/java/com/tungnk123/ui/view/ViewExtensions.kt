@@ -1,4 +1,4 @@
-package com.tungnk123.ui
+package com.tungnk123.ui.view
 
 import android.view.View
 
