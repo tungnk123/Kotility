@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Kotility"
 include(":app")
- 
+include(":lifecycle")
+include(":ui")
+include(":storage")

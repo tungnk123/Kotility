@@ -1,4 +1,4 @@
-package com.tungnk123.kotility.ui
+package com.tungnk123.ui
 
 import android.view.View
 
