@@ -1,4 +1,4 @@
-package com.tungnk123.toast
+package com.tungnk123.kotility.toast
 
 import android.content.Context
 import android.widget.Toast
