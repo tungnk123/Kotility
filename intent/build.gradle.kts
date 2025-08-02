@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.tungnk123.bitflags"
+    namespace = "com.tungnk123.intent"
     compileSdk = 35
 
     defaultConfig {
@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":bitflags"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
