@@ -33,7 +33,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":bitflags"))
+    implementation(project(":bitflags", ":bundle"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
