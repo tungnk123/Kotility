@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.tungnk123.lifecycle"
+    namespace = "com.tungnk123.kotility.lifecycle"
     compileSdk = 35
 
     defaultConfig {

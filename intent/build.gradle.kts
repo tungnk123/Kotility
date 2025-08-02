@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.tungnk123.intent"
+    namespace = "com.tungnk123.kotility.intent"
     compileSdk = 35
 
     defaultConfig {

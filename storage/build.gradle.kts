@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.tungnk123.storage"
+    namespace = "com.tungnk123.kotility.storage"
     compileSdk = 35
 
     defaultConfig {
