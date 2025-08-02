@@ -3,6 +3,7 @@ package com.tungnk123.ui.fragments
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.SavedStateHandle
+import com.tungnk123.bundle.putDynamic
 import kotlin.properties.ReadOnlyProperty
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty

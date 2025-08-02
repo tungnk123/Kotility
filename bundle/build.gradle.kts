@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.tungnk123.kotility.ui"
+    namespace = "com.tungnk123.bundle"
     compileSdk = 35
 
     defaultConfig {
@@ -33,7 +33,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":bundle"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

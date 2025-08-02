@@ -1,9 +1,16 @@
-package com.tungnk123.ui.fragments
+package com.tungnk123.bundle
 
 import android.os.Bundle
 import android.os.Parcelable
 import android.util.SparseArray
 import java.io.Serializable
+
+/**
+ * Dynamically adds multiple key-value pairs to this [Bundle].
+ */
+fun Bundle.putExtrasCompat(extras: Map<String, Any?>) {
+    extras.forEach { (key, value) -> putDynamic(key, value) }
+}
 
 /**
  * Dynamically inserts a value into this [Bundle] with the given [key].
