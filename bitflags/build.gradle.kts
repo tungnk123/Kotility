@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.tungnk123.bitflags"
+    namespace = "com.tungnk123.kotility.bitflags"
     compileSdk = 35
 
     defaultConfig {
